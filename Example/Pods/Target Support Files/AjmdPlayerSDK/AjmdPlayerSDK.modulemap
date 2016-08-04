@@ -1,0 +1,6 @@
+framework module AjmdPlayerSDK {
+  umbrella header "AjmdPlayerSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

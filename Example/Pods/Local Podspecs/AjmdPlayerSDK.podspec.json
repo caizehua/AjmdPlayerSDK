@@ -1,0 +1,30 @@
+{
+  "name": "AjmdPlayerSDK",
+  "version": "0.1.0",
+  "summary": "A short description of AjmdPlayerSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/AjmdPlayerSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mengzhixiong": "mengzhixiong@ajmide.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/AjmdPlayerSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AjmdPlayerSDK/Classes/**/*",
+  "libraries": [
+    "z",
+    "iconv"
+  ],
+  "frameworks": "AVFoundation",
+  "xcconfig": {
+    "LIBRARY_SEARCH_PATHS": "\"/Users/mali/Documents/AjmdPlayerSDK/AjmdPlayerSDK/Classes/FMCoreAudio/player/\""
+  }
+}

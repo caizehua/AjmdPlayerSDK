@@ -1,0 +1,26 @@
+PODS:
+  - AjmdPlayerSDK (0.1.0)
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
+    - FBSnapshotTestCase/Core
+  - Kiwi (2.4.0)
+
+DEPENDENCIES:
+  - AjmdPlayerSDK (from `../`)
+  - FBSnapshotTestCase
+  - Kiwi
+
+EXTERNAL SOURCES:
+  AjmdPlayerSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AjmdPlayerSDK: f4fd9f46072b8007f716b43c5424e062f42d00fd
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+
+PODFILE CHECKSUM: c09b22cf069b9d1be1fe686e1a0d8c26708d841a
+
+COCOAPODS: 1.0.1
